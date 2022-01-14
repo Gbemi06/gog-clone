@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color: #0f171e;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .navbar a {
+      color: white;
+  }
+
+  .dropdown-item a {
+      color: black;
+  }
+
+  .galaxy {
+      display: inline-block;
+      border-left: 1.5px solid black;
+      padding-left: 20px;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      display: inline-flex;
+  }
