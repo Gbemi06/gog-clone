@@ -14,13 +14,13 @@
     <title>gog website</title>
   </head>
   <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar bg-dark" style="color: white;">
-            <img class="navbar-brand"src="./assets/user.png" alt="">
+    
+        <nav class="navbar navbar-expand-lg navbar bg-dark" style="color: rgba(247, 232, 232, 0.295);">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
+            <div class="container">
+            <img class="navbar-brand"src="./assets/user.png" alt="">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
@@ -78,13 +78,14 @@
                
               </ul>
               
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <a href=""><i class="bi bi-search"></i></a>
+              <form class="form-inline my-5 my-lg-0">
+                <a href=""><i class="bi bi-cart4 ml-1 mr-1"></i></a>
+                <a href=""><i class="bi bi-search ml-1 mr-1"></i></a>
               </form>
             </div>
+        </div>
           </nav>
+          <div class="container">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -144,6 +145,8 @@
               <span class="sr-only">Next</span>
             </button>
           </div>
+        </div>
+        <div class="container">
           <div class="row">
               <div class="col-3 mt-5 h-100">
                 <div class="card" style="">
@@ -200,7 +203,9 @@
                   </div>
               </div>
           </div>
+        </div>
           <hr my-3>
+          <div class="container">
           <div class="row">
               <div class="col-9">
                 <a href="https://www.gog.com" target="_blank">we are GOG.COM, the DRM-free home for a curated selection of games. This place was made for gamers, so make
@@ -214,7 +219,49 @@
                   </div>
               </div>
           </div>
+        </div>
           <hr my-3>
+          <div class="container">
+            <i class="bi bi-megaphone-fill"></i>
+            <span>Flash deals</span>
+          </div>
+          <hr my-3>
+
+           <div class="container">
+                <div class="card" style="width: 25rem; margin-bottom: 5;">
+                    <img src="./assets/tile (6).jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-title">Diablo + Hellfire</p>
+                    </div>
+                    <div class="card-body d-flex justify-content-between">
+                        <i class="bi bi-windows"></i>
+                        <p>$ 8.89</p>
+                  </div>
+                </div>
+           </div>
+
+         <div class="container">
+              <div class="mt-5 mb-5">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Featured deals</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Weekly Sale</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Midweek Sale</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
+              </div>
+         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
